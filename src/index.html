@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BTJS Buổi 5</title>
+    <link rel="stylesheet" href="./css/output.css" />
+</head>
+
+<body>
+    <div class="container max-w-sm mx-auto mt-32">
+        <div>
+            <h3 class="text-4xl text-red-500 font-bold">Bài tập 1: In Số Chẵn Lẻ</h3>
+            <form class="max-w-sm mx-auto">
+                <div class="mb-5 mt-5">
+                    <label for="number" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nhất nút
+                        bên dưới để in 100 số chẵn/lẻ nhỏ hơn 100.</label>
+            </form>
+        </div>
+        <button id="btnInSoChan"
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            In số chẵn
+        </button>
+        <button id="btnInSoLe"
+            class="text-white bg-yellow-300 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            In số lẻ
+        </button>
+        <div id="result1"></div>
+    </div>
+    <div class="container max-w-sm mx-auto mt-10">
+
+
+        <form class="max-w-sm mx-auto">
+            <div class="mb-5">
+                <h3 class="text-4xl text-red-500 font-bold">Bài tập 2: Tính tổng các số chẵn từ 1 đến n</h3>
+                <label for="number" class="block mb-2 mt-5 text-sm font-medium text-gray-900 dark:text-white">Nhập vào 1 số n
+                    bất kỳ</label>
+                <input type="text" id="number"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="Số N bất kỳ" required />
+            </div>
+
+        </form>
+        <button id="btnTinhTongSoChan"
+            class="text-white bg-blue-700 mt-3 mb-5 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Tính Tổng</button>
+        <div id="result2"></div>
+
+    </div>
+    <div class="container max-w-sm mx-auto mt-32">
+        <div>
+            <h3 class="text-4xl text-red-500 font-bold">Bài tập 3: Có bao nhiêu số chia hết cho 3 từ 0-1000</h3>
+            <form class="max-w-sm mx-auto">
+                <div class="mb-5 mt-5">
+                    <label for="number" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nhất nút
+                        bên dưới biết kết quả.</label>
+            </form>
+        </div>
+        <button id="btnTimSoChiaHetChoBa"
+            class="text-white bg-blue-700 mb-5 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Kết quả
+        </button>
+        <div id="result3"></div>
+    </div>
+    <div class="container max-w-sm mx-auto mt-32">
+        <div>
+            <h3 class="text-4xl text-red-500 font-bold">Bài tập 4: click vào button sẽ in ra 10 thẻ div khác màu chẵn lẻ.</h3>
+            <form class="max-w-sm mx-auto">
+                <div class="mb-5 mt-5">
+                    <label for="number" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nhất nút
+                        bên dưới để hiển thị kết quả.</label>
+            </form>
+        </div>
+        <button id="btnIn10Div"
+            class="text-white bg-blue-700 mb-5 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Kết quả
+        </button>
+        <div id="result4"></div>
+    </div>
+    <div class="container max-w-sm mx-auto mt-32">
+        <div>
+            <h3 class="text-4xl text-red-500 font-bold">Bài tập 5: Tìm số nguyên dương nhỏ nhất sao cho: 1+2+…+ n > 10000</h3>
+            <form class="max-w-sm mx-auto">
+                <div class="mb-5 mt-5">
+                    <label for="number" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nhất nút
+                        bên dưới để hiển thị kết quả.</label>
+            </form>
+        </div>
+        <button id="btnTimSo"
+            class="text-white bg-blue-700 mb-5 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Kết quả
+        </button>
+        <div id="result5"></div>
+    </div>
+    <div class="container max-w-sm mx-auto mt-10">
+
+
+        <form class="max-w-sm mx-auto">
+            <div class="mb-5">
+                <h3 class="text-4xl text-red-500 font-bold">Bài tập 6: Tính tính tổng: S(n)=x+x^2+x^3+…+x^n</h3>
+                <label for="number" class="block mb-2 mt-5 text-sm font-medium text-gray-900 dark:text-white">Nhập vào 1 số X
+                    bất kỳ</label>
+                <input type="text" id="soX"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="Số X bất kỳ" required />
+            </div>
+            <label for="number" class="block mb-2 mt-5 text-sm font-medium text-gray-900 dark:text-white">Nhập vào 1 số n
+                bất kỳ</label>
+            <input type="text" id="soN"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Số N bất kỳ" required />
+
+        </form>
+        <button id="btnTinhTongSn"
+            class="text-white bg-blue-700 mt-3 mb-5 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Tính Tổng</button>
+        <div id="result6"></div>
+
+    </div>
+    <div class="container max-w-sm mx-auto mt-10">
+
+
+        <div>
+            <form class="max-w-sm mx-auto">
+                <div class="mb-5">
+                    <h3 class="text-4xl text-red-500 font-bold">Bài tập 7: Tính giai thừa 1×2×…×n</h3>
+                   
+                <label for="number" class="block mb-2 mt-5 text-sm font-medium text-gray-900 dark:text-white">Nhập vào 1 số n
+                    bất kỳ</label>
+                <input type="text" id="number7"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="Số N bất kỳ" required />
+    
+            </form>
+        </div>
+        <button id="btnTinhGiaiThua"
+            class="text-white bg-blue-700 mt-3 mb-5 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Tính Tổng</button>
+        <div id="result7"></div>
+
+    </div>
+    <div class="container max-w-sm mx-auto mt-10">
+
+
+        <div>
+            <form class="max-w-sm mx-auto">
+                <div class="mb-5">
+                    <h3 class="text-4xl text-red-500 font-bold">Bài tập 8: In ra số nguyên đến n</h3>
+                   
+                <label for="number" class="block mb-2 mt-5 text-sm font-medium text-gray-900 dark:text-white">Nhập vào 1 số n
+                    bất kỳ</label>
+                <input type="text" id="number8"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="Số N bất kỳ" required />
+    
+            </form>
+        </div>
+        <button id="btnInRaSoNguyen"
+            class="text-white bg-blue-700 mt-3 mb-5 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">In ra</button>
+        <div id="result8"></div>
+
+    </div>
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
